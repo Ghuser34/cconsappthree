@@ -1,1 +1,1 @@
-This is a C++ learning project, published to keep track of the source code, for the sake of study, while also an attempt to learn Git; simple as it is. 
+This is a C++ learning project (built in VS), published to keep track of the source code, for the sake of study, while also an attempt to learn Git; simple as it is. 
