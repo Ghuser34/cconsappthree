@@ -1,0 +1,30 @@
+int main()
+{
+         cout << "Please enter expression (operations allowed: + and −): ";
+         int lval = 0;
+         int rval = 0;
+         char op = 0;
+         int res = 0;
+         cin >> lval >> op >> rval;          // read specific binary operation
+	  switch(op){
+	case '+':
+	cout << lval + rval;
+	break;
+	
+	case '-':
+	cout << lval - rval;
+	break;
+
+	case '*':
+	cout << lval * rval;
+	break;
+
+	case '/':
+	cout << lval / rval;
+	break;
+
+	default:
+	cout << lval << '\n';
+}      
+         cout << "Result: " << res << '\n';
+}
